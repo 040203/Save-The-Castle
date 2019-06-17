@@ -24,7 +24,6 @@ body {
    overflow: hidden;
 }
 
-
 canvas {
    display: none;
    width: 640px;
@@ -35,9 +34,6 @@ canvas {
    order: 1;
    transition: 0.25s filter linear;
 }
-
-
-
 
  .red-bull {
 
@@ -273,4 +269,16 @@ canvas {
    margin: auto;
 }
 
+
+.audio {
+   position: absolute;
+   height: 60px;
+   right: 20px;
+   bottom: 50px;
+   z-index: 4;
+}
+
+.audio:hover {
+   cursor: pointer;
+}
 
