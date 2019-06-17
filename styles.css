@@ -1,0 +1,135 @@
+body {
+   margin: 0;
+   font-family: "Anton", sans-serif;
+   font-size: 16px;
+   background-image: url("./img/vector-green-grass-background-011.jpg");
+   background-size: 100% 100%;
+}
+
+#main {
+   display: block;
+   width: 640px;
+   height: 480px;
+   background-image: url('./img/Background\ Game.png');
+   background-size: 100% 100%;
+   z-index: 3; 
+    /* https: //developer.mozilla.org/es/docs/Web/CSS/z-index */
+
+}
+
+#startGame {
+   display: none;
+   width: 640px;
+   height: 570px;
+   overflow: hidden;
+}
+
+
+canvas {
+   display: none;
+   width: 640px;
+   height: 480px;
+   background-image: url('./img/background.png');
+   background-size: 100% 100%;
+   z-index: 2;
+   order: 1;
+   transition: 0.25s filter linear;
+}
+
+
+
+
+.red-bull {
+
+   animation-name: floating;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   margin-left: 30px;
+   margin-top: 5px;
+}
+
+@keyframes floating {
+   from {
+      transform: translate(0, 0px);
+   }
+
+   65% {
+      transform: translate(0, 15px);
+   }
+
+   to {
+      transform: translate(0, -0px);
+   }
+}
+
+.can1 {
+   height: 60px;
+   position: absolute;
+   top: 120px;
+   left: 100px;
+
+}
+
+.can2 {
+   height: 60px;
+   position: absolute;
+   top: 120px;
+   left: 360px;
+}
+
+.can3 {
+   height: 60px;
+   position: absolute;
+   left: 550px;
+   top: 30px;
+}
+
+.can4 {
+   height: 60px;
+   position: absolute;
+   top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.center {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   margin: auto;
+}
+
+
